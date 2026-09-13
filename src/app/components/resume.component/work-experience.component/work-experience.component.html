@@ -11,7 +11,7 @@
     </p>
     <p>{{ job.description }}</p>
     @if (job.technologies.length > 1) {
-        <p>Languages/Frameworks: 
+        <p>Tools Used: 
         @for (tech of job.technologies; track tech) {
           <a 
             [routerLink]="['/resume']" 
